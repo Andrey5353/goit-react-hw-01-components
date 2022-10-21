@@ -1,0 +1,8 @@
+.profile {
+  display: flex;
+}
+
+.section_title {
+  display: flex;
+  justify-content: center;
+}
