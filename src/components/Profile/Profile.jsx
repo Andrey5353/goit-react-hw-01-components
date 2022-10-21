@@ -1,11 +1,11 @@
 import { UserInfo } from "./UserInfo";
 import { UserStats } from "./UserStats";
 
-export const Profile = ({ events }) => {
+export const Profile = ({ props }) => {
     return (
         <div className="profile" >
             <h1>USER PROFILES</h1>
-            {events.map(({ username, avatar, tag, location, stats}) => (
+            {props.map(({ username, avatar, tag, location, stats}) => (
                 <div className="userCard" key={username}>
                     <UserInfo
                         avatar={avatar}
