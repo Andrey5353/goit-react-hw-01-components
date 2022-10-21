@@ -1,0 +1,35 @@
+[
+  {
+    "username": "Jackie Chan",
+    "tag": "jchan",
+    "location": "Hong Kong, China",
+    "avatar": "https://cdn-icons-png.flaticon.com/512/2922/2922506.png",
+    "stats": {
+      "followers": 56034566,
+      "views": 482725,
+      "likes": 1308256
+    }
+  },
+  {
+    "username": "Chuck Norris",
+    "tag": "cnorris",
+    "location": "Oklahoma, USA",
+    "avatar": "https://cdn-icons-png.flaticon.com/512/2922/2922506.png",
+    "stats": {
+      "followers": 46716487,
+      "views": 4827352,
+      "likes": 1308352
+    }
+  },
+  {
+    "username": "Sylvester Stallone",
+    "tag": "sstallone",
+    "location": "New York, USA",
+    "avatar": "https://cdn-icons-png.flaticon.com/512/2922/2922506.png",
+    "stats": {
+      "followers": 875427,
+      "views": 98750298,
+      "likes": 4698374
+    }
+  }
+]
