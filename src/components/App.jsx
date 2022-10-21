@@ -1,9 +1,9 @@
-import { UserAvatar } from "components/Profile/UserImg"
+import { Profile } from "./Profile/Profile";
 
 export const App = () => {
   return (
-    <div>
-      <UserAvatar />
-    </div>
+    <main>
+      <Profile />
+    </main>
   );
 };
