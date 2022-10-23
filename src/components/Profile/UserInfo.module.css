@@ -2,8 +2,32 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 30px;
 }
 
-.avatar {
-  width: 300px;
+.avatarCont {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.avatarCont:hover {
+  scale: 1.2;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.tag {
+  color: grey;
+  margin-bottom: 10px;
+}
+
+.location {
+  color: grey;
 }

@@ -4,14 +4,17 @@ import css from 'components/Profile/UserInfo.module.css'
 export const UserInfo = ({ avatar, username, tag, location}) => {
     return (
         <div className={css.description}>
-            <img
+            <div className={css.avatarCont}>
+                  <img
                 src={avatar}
                 alt="User avatar"
                 className={css.avatar}
             />
-            <p className="name">{username}</p>
-            <p className="tag">{tag}</p>
-            <p className="location">{location}</p>
+            </div>
+          
+            <p className={css.name}>{username}</p>
+            <p className={css.tag}>{tag}</p>
+            <p className={css.location}>{location}</p>
         </div>
     )
 };

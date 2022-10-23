@@ -1,8 +1,38 @@
 .stats {
   display: flex;
-  justify-content: space-around;
+  column-gap: 4px;
 }
 
 .label {
   display: flex;
+  justify-content: center;
+  color: white;
+  margin-bottom: 8px;
+}
+
+.stats_item {
+  display: flex;
+
+  border: 1px solid rgb(110, 110, 110);
+  background-color: rgb(204, 204, 204);
+  border-radius: 4px;
+  flex-direction: column;
+
+  padding-top: 20px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+}
+.stats_item:hover {
+  scale: 1.02;
+  background-color: rgb(235, 235, 235);
+}
+
+.stats_item:hover .label {
+  color: rgb(110, 110, 110);
+}
+
+.quantity {
+  font-size: 21px;
+  font-weight: 700;
 }
