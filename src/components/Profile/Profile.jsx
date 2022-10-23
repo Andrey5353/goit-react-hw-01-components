@@ -6,7 +6,7 @@ import css from 'components/Profile/Profile.module.css'
 export const Profile = ({ props }) => {
     return (
         <section className={css.profileSection}>
-            <h1 className={css.section_title}>USER PROFILES</h1>
+            <h1 className={css.sectionTitle}>USER PROFILES</h1>
             <div className={css.profile} >
                 {props.map(({ username, avatar, tag, location, stats }) => (
                     <div className={css.userCard} key={username}>

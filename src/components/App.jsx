@@ -1,14 +1,17 @@
 import { Profile } from "./Profile/Profile";
 import { Statistics } from "./Statistics/Statistics";
+import{FriendList}from "./FriendList/FriendList"
 
 import UserData from "data/user.json";
 import StatisticsData from "data/data.json";
+import FriendsData from "data/friends.json"
 
 export const App = () => {
   return (
     <main>
       <Profile props={UserData} />
-      <Statistics title="Upload stats" props={StatisticsData}/>
+      <Statistics title="Upload stats" props={StatisticsData} />
+      <FriendList props={FriendsData} />
     </main>
   );
 };

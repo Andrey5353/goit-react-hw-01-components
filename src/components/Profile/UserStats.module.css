@@ -10,7 +10,7 @@
   margin-bottom: 8px;
 }
 
-.stats_item {
+.statsItem {
   display: flex;
 
   border: 1px solid rgb(110, 110, 110);
@@ -23,12 +23,12 @@
   padding-bottom: 20px;
   padding-left: 10px;
 }
-.stats_item:hover {
+.statsItem:hover {
   scale: 1.02;
   background-color: rgb(235, 235, 235);
 }
 
-.stats_item:hover .label {
+.statsItem:hover .label {
   color: rgb(110, 110, 110);
 }
 
