@@ -1,3 +1,7 @@
+.profileSection {
+  margin-bottom: 100px;
+}
+
 .profile {
   display: flex;
   justify-content: space-evenly;

@@ -20,8 +20,8 @@ export const UserStats = ({ followers, views, likes }) => {
     )
 };
 
-UserStats.propTypes = {
-    followers: PropTypes.number.isRequired,
-    views: PropTypes.number.isRequired,
-    likes: PropTypes.number.isRequired,
-};
+// UserStats.propTypes = {
+//     followers: PropTypes.number.isRequired,
+//     views: PropTypes.number.isRequired,
+//     likes: PropTypes.number.isRequired,
+// };
