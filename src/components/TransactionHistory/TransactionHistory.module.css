@@ -1,0 +1,52 @@
+.sectionTitle {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: inset 0 0 10px 5px rgba(0, 0, 0, 0.3);
+  margin-bottom: 20px;
+}
+
+.transactionHistory {
+  text-align: center;
+  width: 500px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
+  background-color: #fff;
+  box-shadow: inset 0 0 10px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  color: rgb(65, 65, 65);
+}
+
+.transactionTitle {
+  height: 40px;
+  text-transform: uppercase;
+  color: white;
+  background-color: rgb(160, 160, 160);
+  box-shadow: inset 0 0 10px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+}
+
+.transactionData {
+  height: 40px;
+  background-color: rgb(160, 160, 160);
+  box-shadow: inset 0 0 10px 5px rgba(0, 0, 0, 0.3);
+}
+
+.transactionData:nth-last-child(2n) {
+  background-color: white;
+  box-shadow: inset 0 0 10px 5px rgba(0, 0, 0, 0.3);
+}
+
+.transactionData:hover {
+  scale: 1.05;
+}
+
+.transactionType {
+  text-align: left;
+  padding-left: 50px;
+  text-transform: capitalize;
+}
